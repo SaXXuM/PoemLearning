@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 20px 0;
+}
+
+@media print {
+    textarea[name='src'], button {
+        display: none;
+    }
+
+}
